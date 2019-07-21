@@ -9,6 +9,7 @@
 
 	<!-- add entry to enable component scanning -->
 	<context:component-scan base-package="de.luv2code.springdemo" />
+	<context:property-placeholder location="böseFortune.properties"/>
 </beans>
 
 

@@ -11,7 +11,7 @@ public class ComputerCoach implements Coach {
 	private FortuneService fortuneService;
 		
 	@Autowired
-	public ComputerCoach(@Qualifier("happyFortuneService") FortuneService fortuneService) {
+	public ComputerCoach(@Qualifier("badAssFortuneService") FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
 
